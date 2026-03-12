@@ -4,9 +4,14 @@
   "type": "module",
   "scripts": {
     "run": "node",
+    "test": "vitest run",
     "check": "tsc --noEmit"
   },
   "devDependencies": {
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vitest": "^4.1.0"
+  },
+  "dependencies": {
+    "prettier": "^3.8.1"
   }
 }
