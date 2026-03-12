@@ -1,6 +1,6 @@
 import { TestCase } from "@/core.js";
 import { describe, expect, it } from "vitest";
-import { lengthOfLongestSubstring } from "@/neetcode_150/length_of_longest_substrings/solution.js";
+import { lengthOfLongestSubstring } from "@/neetcode_150/length_of_longest_substrings/length_of_longest_substring.js";
 
 const testCases: TestCase[] = [
   { input: "", expected: 0 },
