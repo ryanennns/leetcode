@@ -5,7 +5,7 @@ export const change = (amount: number, coins: number[]): number => {
     for (let i = 0; i < available.length; i++) {
       const newCurrent = current - available[i];
 
-      const possible = available.filter(c => c <= newCurrent);
+      const possible = available.filter((c) => c <= newCurrent);
       if (possible.length > 0) {
         recurse(newCurrent, possible);
       }
@@ -14,7 +14,7 @@ export const change = (amount: number, coins: number[]): number => {
         possibleCombinations += 1;
       }
     }
-  }
+  };
 
   recurse(amount, coins);
 
