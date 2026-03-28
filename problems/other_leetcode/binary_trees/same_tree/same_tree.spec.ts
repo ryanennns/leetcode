@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { isSameTree } from "@/other_leetcode/same_tree/same_tree.js";
 import { TreeNode } from "@/types.js";
+import { isSameTree } from "@/other_leetcode/binary_trees/same_tree/same_tree.js";
 
 describe("isSameTree", () => {
   it("example 1", () => {

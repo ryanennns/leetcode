@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { isSymmetric } from "@/other_leetcode/symmetric_tree/symmetric_tree.js";
 import { TreeNode } from "@/types.js";
+import { isSymmetric } from "@/other_leetcode/binary_trees/symmetric_tree/symmetric_tree.js";
 
 describe("isSymmetric", () => {
   it("symmetric tree", () => {

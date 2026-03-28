@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { inorderTraversal } from "@/other_leetcode/binary_tree_inorder_traversal/binary_tree_inorder_traversal.js";
 import { TreeNode } from "@/types.js";
+import { inorderTraversal } from "@/other_leetcode/binary_trees/binary_tree_inorder_traversal/binary_tree_inorder_traversal.js";
 
 describe("inorderTraversal", () => {
   it("should traverse", () => {
