@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { isSameTree, TreeNode } from "@/other_leetcode/same_tree/same_tree.js";
 import { maxDepth } from "@/other_leetcode/maximum_depth_binary_tree/maximum_depth_tree.js";
+import { TreeNode } from "@/types.js";
 
 describe("[1,2,1] - 2", () => {
   it("does a thing", () => {
