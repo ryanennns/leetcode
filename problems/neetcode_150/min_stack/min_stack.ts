@@ -1,9 +1,7 @@
 class MinStack {
   nums: Array<number> = [];
 
-  constructor() {
-
-  }
+  constructor() {}
 
   push(val: number): void {
     this.nums.push(val);
